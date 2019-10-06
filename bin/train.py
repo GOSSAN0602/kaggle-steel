@@ -39,7 +39,7 @@ sample_submission_path = '../input/sample_submission.csv'
 test_data_folder = "../input/test_images"
 
 # define model
-model = Unet("resnet101", encoder_weights="imagenet", classes=4, activation=None)
+model = Unet("resnet34", encoder_weights="imagenet", classes=4, activation=None)
 
 # define model_trainer
 model_trainer = Trainer(model)
