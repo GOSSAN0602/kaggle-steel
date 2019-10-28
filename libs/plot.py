@@ -8,4 +8,4 @@ def plot(scores, name):
     plt.xlabel('Epoch')
     plt.ylabel(f'{name}')
     plt.legend()
-    plt.savefig(f'/home/shuki_goto/steel_workspace/steel/log/{name}.png')
+    plt.savefig(f'~/steel_workspace/steel/log/{name}.png')
